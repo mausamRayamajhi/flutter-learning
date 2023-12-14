@@ -1,9 +1,31 @@
 # See https://www.dartlang.org/guides/libraries/private-files
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
 
 # Files and directories created by pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
 .dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
 .packages
-build/
+.pub-cache/
+.pub/
+/build/
 # If you're building an application, you may want to check-in your pubspec.lock
 pubspec.lock
 
@@ -22,6 +44,8 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
+
+.gradle
 
 .flutter-plugins
 .flutter-plugins-dependencies
