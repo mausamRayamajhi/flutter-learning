@@ -1,2 +1,2 @@
-# flutter-learning
-Create flutter application with new learning with testcases
+# Flutter-learning
+Create flutter application with new learning and testcases
